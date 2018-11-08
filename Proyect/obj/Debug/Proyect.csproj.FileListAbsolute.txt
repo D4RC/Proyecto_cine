@@ -1,0 +1,12 @@
+C:\Users\danie_000\Desktop\Proyect\bin\Debug\Proyect.exe.config
+C:\Users\danie_000\Desktop\Proyect\bin\Debug\Proyect.exe
+C:\Users\danie_000\Desktop\Proyect\bin\Debug\Proyect.pdb
+C:\Users\danie_000\Desktop\Proyect\obj\Debug\Proyect.Form1.resources
+C:\Users\danie_000\Desktop\Proyect\obj\Debug\Proyect.Properties.Resources.resources
+C:\Users\danie_000\Desktop\Proyect\obj\Debug\Proyect.csproj.GenerateResource.cache
+C:\Users\danie_000\Desktop\Proyect\obj\Debug\Proyect.csproj.CoreCompileInputs.cache
+C:\Users\danie_000\Desktop\Proyect\obj\Debug\Proyect.exe
+C:\Users\danie_000\Desktop\Proyect\obj\Debug\Proyect.pdb
+C:\Users\danie_000\Desktop\Proyect\obj\Debug\Proyect.csprojAssemblyReference.cache
+C:\Users\danie_000\Desktop\Proyect\obj\Debug\Proyect.Form2.resources
+C:\Users\danie_000\Desktop\Proyect\obj\Debug\Proyect.Form3.resources
