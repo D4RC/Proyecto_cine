@@ -11,6 +11,10 @@ namespace Proyect
 {
     class GradienteV : Panel
     {
+        GradienteV()
+        {
+        }
+
         public GradienteV(Color colorTop, Color colorBottom)
         {
             ColorTop = colorTop;

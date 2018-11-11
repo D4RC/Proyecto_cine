@@ -34,193 +34,251 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.tbx_Id = new System.Windows.Forms.TextBox();
+            this.tbx_Prod = new System.Windows.Forms.TextBox();
+            this.cmb_Det = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.mtbx_Cad = new System.Windows.Forms.MaskedTextBox();
+            this.tbx_Cant = new System.Windows.Forms.TextBox();
+            this.tbx_Pcompra = new System.Windows.Forms.TextBox();
+            this.tbx_Pventa = new System.Windows.Forms.TextBox();
+            this.btn_Borrar = new System.Windows.Forms.Button();
+            this.btn_RegOtro = new System.Windows.Forms.Button();
+            this.btn_BMenu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(78, 63);
+            this.label1.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(68, 61);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(104, 18);
+            this.label1.Size = new System.Drawing.Size(111, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "ID de Producto";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(116, 117);
+            this.label2.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(108, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 18);
+            this.label2.Size = new System.Drawing.Size(71, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Producto";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(116, 154);
+            this.label3.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(116, 137);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 18);
+            this.label3.Size = new System.Drawing.Size(57, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Detalle";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(115, 185);
+            this.label5.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(108, 186);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(67, 18);
+            this.label5.Size = new System.Drawing.Size(71, 20);
             this.label5.TabIndex = 4;
             this.label5.Text = "Cantidad";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(66, 253);
+            this.label6.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(50, 271);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(121, 18);
+            this.label6.Size = new System.Drawing.Size(128, 20);
             this.label6.TabIndex = 5;
             this.label6.Text = "Precio de compra";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(78, 284);
+            this.label7.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(65, 302);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(109, 18);
+            this.label7.Size = new System.Drawing.Size(114, 20);
             this.label7.TabIndex = 6;
             this.label7.Text = "Precio de venta";
             // 
-            // textBox1
+            // tbx_Id
             // 
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox1.Location = new System.Drawing.Point(195, 63);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(135, 15);
-            this.textBox1.TabIndex = 7;
+            this.tbx_Id.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbx_Id.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.tbx_Id.Location = new System.Drawing.Point(194, 66);
+            this.tbx_Id.Name = "tbx_Id";
+            this.tbx_Id.Size = new System.Drawing.Size(150, 15);
+            this.tbx_Id.TabIndex = 7;
             // 
-            // textBox2
+            // tbx_Prod
             // 
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox2.Location = new System.Drawing.Point(195, 114);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(135, 15);
-            this.textBox2.TabIndex = 8;
+            this.tbx_Prod.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbx_Prod.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.tbx_Prod.Location = new System.Drawing.Point(194, 100);
+            this.tbx_Prod.Name = "tbx_Prod";
+            this.tbx_Prod.Size = new System.Drawing.Size(150, 15);
+            this.tbx_Prod.TabIndex = 8;
             // 
-            // textBox4
+            // cmb_Det
             // 
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox4.Location = new System.Drawing.Point(195, 179);
-            this.textBox4.MaxLength = 2;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(41, 15);
-            this.textBox4.TabIndex = 10;
-            this.textBox4.Text = "DD";
-            // 
-            // textBox5
-            // 
-            this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox5.Location = new System.Drawing.Point(242, 179);
-            this.textBox5.MaxLength = 2;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(41, 15);
-            this.textBox5.TabIndex = 11;
-            this.textBox5.Text = "MM";
-            // 
-            // textBox6
-            // 
-            this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox6.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox6.Location = new System.Drawing.Point(289, 179);
-            this.textBox6.MaxLength = 2;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(41, 15);
-            this.textBox6.TabIndex = 12;
-            this.textBox6.Text = "AA";
-            // 
-            // textBox7
-            // 
-            this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox7.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox7.Location = new System.Drawing.Point(205, 253);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(125, 15);
-            this.textBox7.TabIndex = 13;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
-            // 
-            // textBox8
-            // 
-            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox8.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBox8.Location = new System.Drawing.Point(205, 287);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(125, 15);
-            this.textBox8.TabIndex = 14;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmb_Det.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cmb_Det.FormattingEnabled = true;
+            this.cmb_Det.Items.AddRange(new object[] {
             "Gramos",
             "Kg",
             "Litros",
             "Ml",
             "Unidades"});
-            this.comboBox1.Location = new System.Drawing.Point(195, 148);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(135, 24);
-            this.comboBox1.Sorted = true;
-            this.comboBox1.TabIndex = 15;
+            this.cmb_Det.Location = new System.Drawing.Point(194, 137);
+            this.cmb_Det.Name = "cmb_Det";
+            this.cmb_Det.Size = new System.Drawing.Size(135, 24);
+            this.cmb_Det.Sorted = true;
+            this.cmb_Det.TabIndex = 15;
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Location = new System.Drawing.Point(255, 352);
+            this.button1.BackColor = System.Drawing.Color.Silver;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(48, 420);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 32);
-            this.button1.TabIndex = 16;
+            this.button1.Size = new System.Drawing.Size(174, 32);
+            this.button1.TabIndex = 21;
             this.button1.Text = "Añadir";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(96, 221);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(83, 20);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "Caducidad";
+            // 
+            // mtbx_Cad
+            // 
+            this.mtbx_Cad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.mtbx_Cad.Location = new System.Drawing.Point(194, 226);
+            this.mtbx_Cad.Mask = "00/00/0000";
+            this.mtbx_Cad.Name = "mtbx_Cad";
+            this.mtbx_Cad.PromptChar = ' ';
+            this.mtbx_Cad.Size = new System.Drawing.Size(100, 15);
+            this.mtbx_Cad.TabIndex = 17;
+            this.mtbx_Cad.ValidatingType = typeof(System.DateTime);
+            // 
+            // tbx_Cant
+            // 
+            this.tbx_Cant.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbx_Cant.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.tbx_Cant.Location = new System.Drawing.Point(194, 191);
+            this.tbx_Cant.Name = "tbx_Cant";
+            this.tbx_Cant.Size = new System.Drawing.Size(150, 15);
+            this.tbx_Cant.TabIndex = 16;
+            // 
+            // tbx_Pcompra
+            // 
+            this.tbx_Pcompra.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbx_Pcompra.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.tbx_Pcompra.Location = new System.Drawing.Point(194, 276);
+            this.tbx_Pcompra.Name = "tbx_Pcompra";
+            this.tbx_Pcompra.Size = new System.Drawing.Size(150, 15);
+            this.tbx_Pcompra.TabIndex = 18;
+            // 
+            // tbx_Pventa
+            // 
+            this.tbx_Pventa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbx_Pventa.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.tbx_Pventa.Location = new System.Drawing.Point(194, 307);
+            this.tbx_Pventa.Name = "tbx_Pventa";
+            this.tbx_Pventa.Size = new System.Drawing.Size(150, 15);
+            this.tbx_Pventa.TabIndex = 19;
+            // 
+            // btn_Borrar
+            // 
+            this.btn_Borrar.BackColor = System.Drawing.Color.Silver;
+            this.btn_Borrar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Borrar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_Borrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Borrar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Borrar.ForeColor = System.Drawing.Color.Black;
+            this.btn_Borrar.Location = new System.Drawing.Point(48, 382);
+            this.btn_Borrar.Name = "btn_Borrar";
+            this.btn_Borrar.Size = new System.Drawing.Size(174, 32);
+            this.btn_Borrar.TabIndex = 20;
+            this.btn_Borrar.Text = "Limpiar";
+            this.btn_Borrar.UseVisualStyleBackColor = false;
+            this.btn_Borrar.Click += new System.EventHandler(this.btn_Borrar_Click);
+            // 
+            // btn_RegOtro
+            // 
+            this.btn_RegOtro.BackColor = System.Drawing.Color.Silver;
+            this.btn_RegOtro.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_RegOtro.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_RegOtro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_RegOtro.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_RegOtro.ForeColor = System.Drawing.Color.Black;
+            this.btn_RegOtro.Location = new System.Drawing.Point(228, 382);
+            this.btn_RegOtro.Name = "btn_RegOtro";
+            this.btn_RegOtro.Size = new System.Drawing.Size(174, 32);
+            this.btn_RegOtro.TabIndex = 22;
+            this.btn_RegOtro.Text = "Registrar otro ";
+            this.btn_RegOtro.UseVisualStyleBackColor = false;
+            this.btn_RegOtro.Visible = false;
+            this.btn_RegOtro.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btn_BMenu
+            // 
+            this.btn_BMenu.BackColor = System.Drawing.Color.Silver;
+            this.btn_BMenu.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_BMenu.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_BMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_BMenu.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_BMenu.ForeColor = System.Drawing.Color.Black;
+            this.btn_BMenu.Location = new System.Drawing.Point(228, 420);
+            this.btn_BMenu.Name = "btn_BMenu";
+            this.btn_BMenu.Size = new System.Drawing.Size(174, 32);
+            this.btn_BMenu.TabIndex = 23;
+            this.btn_BMenu.Text = "Menú principal";
+            this.btn_BMenu.UseVisualStyleBackColor = false;
+            this.btn_BMenu.Visible = false;
             // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 426);
+            this.ClientSize = new System.Drawing.Size(471, 507);
+            this.Controls.Add(this.btn_BMenu);
+            this.Controls.Add(this.btn_RegOtro);
+            this.Controls.Add(this.btn_Borrar);
+            this.Controls.Add(this.tbx_Pventa);
+            this.Controls.Add(this.tbx_Pcompra);
+            this.Controls.Add(this.tbx_Cant);
+            this.Controls.Add(this.mtbx_Cad);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cmb_Det);
+            this.Controls.Add(this.tbx_Prod);
+            this.Controls.Add(this.tbx_Id);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Form3";
             this.Text = "Altas de inventario";
@@ -238,14 +296,17 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox tbx_Id;
+        private System.Windows.Forms.TextBox tbx_Prod;
+        private System.Windows.Forms.ComboBox cmb_Det;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.MaskedTextBox mtbx_Cad;
+        private System.Windows.Forms.TextBox tbx_Cant;
+        private System.Windows.Forms.TextBox tbx_Pcompra;
+        private System.Windows.Forms.TextBox tbx_Pventa;
+        private System.Windows.Forms.Button btn_Borrar;
+        private System.Windows.Forms.Button btn_RegOtro;
+        private System.Windows.Forms.Button btn_BMenu;
     }
 }

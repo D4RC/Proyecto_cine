@@ -46,6 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BajaInv.Cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BajaInv.Designer.Cs">
+      <DependentUpon>BajaInv.Cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +84,9 @@
     <Compile Include="Sesion.cs">
       <SubType>Form</SubType>
     </Compile>
+    <EmbeddedResource Include="BajaInv.resx">
+      <DependentUpon>BajaInv.Cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

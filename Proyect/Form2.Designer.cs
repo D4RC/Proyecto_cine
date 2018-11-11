@@ -41,11 +41,7 @@
             this.btn_menu1 = new System.Windows.Forms.Button();
             this.panel_Info = new System.Windows.Forms.Panel();
             this.panel_Inventario = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btn_Inv_Promo = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -196,11 +192,7 @@
             // 
             // panel_Inventario
             // 
-            this.panel_Inventario.Controls.Add(this.panel6);
-            this.panel_Inventario.Controls.Add(this.panel5);
-            this.panel_Inventario.Controls.Add(this.button6);
             this.panel_Inventario.Controls.Add(this.panel4);
-            this.panel_Inventario.Controls.Add(this.button5);
             this.panel_Inventario.Controls.Add(this.panel3);
             this.panel_Inventario.Controls.Add(this.btn_Inv_Promo);
             this.panel_Inventario.Controls.Add(this.panel2);
@@ -210,41 +202,9 @@
             this.panel_Inventario.Controls.Add(this.btn_Inv_Mod);
             this.panel_Inventario.Location = new System.Drawing.Point(37, 20);
             this.panel_Inventario.Name = "panel_Inventario";
-            this.panel_Inventario.Size = new System.Drawing.Size(213, 414);
+            this.panel_Inventario.Size = new System.Drawing.Size(213, 203);
             this.panel_Inventario.TabIndex = 0;
             this.panel_Inventario.Visible = false;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.SystemColors.Desktop;
-            this.panel6.Location = new System.Drawing.Point(16, 231);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(10, 10);
-            this.panel6.TabIndex = 5;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.Desktop;
-            this.panel5.Location = new System.Drawing.Point(16, 192);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(10, 10);
-            this.panel5.TabIndex = 5;
-            // 
-            // button6
-            // 
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowFrame;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.Black;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(32, 219);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(178, 33);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "Inventario";
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -253,22 +213,6 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(10, 10);
             this.panel4.TabIndex = 5;
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.WindowFrame;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.Black;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(32, 180);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(178, 33);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Inventario";
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // panel3
             // 
@@ -341,6 +285,7 @@
             this.btn_Inv_Alta.TabIndex = 4;
             this.btn_Inv_Alta.Text = "Altas";
             this.btn_Inv_Alta.UseVisualStyleBackColor = true;
+            this.btn_Inv_Alta.Click += new System.EventHandler(this.btn_Inv_Alta_Click);
             // 
             // btn_Inv_Mod
             // 
@@ -393,11 +338,7 @@
         private System.Windows.Forms.Button btn_Personal;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel_Inventario;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btn_Inv_Promo;
         private System.Windows.Forms.Panel panel2;

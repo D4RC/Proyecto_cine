@@ -31,5 +31,12 @@ namespace Proyect
         {
             panel_Inventario.Visible = true;
         }
+
+        private void btn_Inv_Alta_Click(object sender, EventArgs e)
+        {
+            Form3 AInv = new Form3();
+            AInv.Show();
+            
+        }
     }
 }

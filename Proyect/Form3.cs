@@ -29,19 +29,43 @@ namespace Proyect
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try
-            {
-                SqlConnection conn = new SqlConnection("Server = D-PC\\TEW_SQLEXPRESS; Database = BD_Cine; Integrated Security = True");
+            push_Base();
+            btn_RegOtro.Show();
+            btn_BMenu.Show();
+        }
 
-                SqlCommand cmd = new SqlCommand("");
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
 
-            }
-
-            catch (Exception exe)
-            {
-                throw exe;
-            }
+        private void maskedTextBox3_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
 
         }
+
+        private void btn_Borrar_Click(object sender, EventArgs e)
+        {
+            limpiar(); 
+        }
+
+        private void limpiar()
+        {
+            foreach (TextBox C in this.Controls.OfType<TextBox>())
+            {
+                C.Clear();
+            }
+
+            mtbx_Cad.Clear();
+            cmb_Det.ResetText();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            limpiar();
+            btn_RegOtro.Hide();
+        }
     }
+
+   
 }
