@@ -52,6 +52,18 @@
     <Compile Include="BajaInv.Designer.Cs">
       <DependentUpon>BajaInv.Cs</DependentUpon>
     </Compile>
+    <Compile Include="Consulta_Base.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta_Base.Designer.cs">
+      <DependentUpon>Consulta_Base.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consulta_Precio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consulta_Precio.Designer.cs">
+      <DependentUpon>Consulta_Precio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Inventario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +91,18 @@
     <Compile Include="GradienteV.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Menu_Consultor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Consultor.Designer.cs">
+      <DependentUpon>Menu_Consultor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModInv.Designer.cs">
+      <DependentUpon>ModInv.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sesion.cs">
@@ -86,6 +110,12 @@
     </Compile>
     <EmbeddedResource Include="BajaInv.resx">
       <DependentUpon>BajaInv.Cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta_Base.resx">
+      <DependentUpon>Consulta_Base.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consulta_Precio.resx">
+      <DependentUpon>Consulta_Precio.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -95,6 +125,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Consultor.resx">
+      <DependentUpon>Menu_Consultor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModInv.resx">
+      <DependentUpon>ModInv.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

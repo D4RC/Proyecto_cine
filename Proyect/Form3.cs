@@ -32,6 +32,7 @@ namespace Proyect
             push_Base();
             btn_RegOtro.Show();
             btn_BMenu.Show();
+         
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)

@@ -23,3 +23,6 @@ C:\Users\danie_000\Desktop\Proyecto_cine\Proyect\obj\Debug\Proyect.csproj.CoreCo
 C:\Users\danie_000\Desktop\Proyecto_cine\Proyect\obj\Debug\Proyect.exe
 C:\Users\danie_000\Desktop\Proyecto_cine\Proyect\obj\Debug\Proyect.pdb
 C:\Users\danie_000\Desktop\Proyecto_cine\Proyect\obj\Debug\Proyect.BajaInv.resources
+C:\Users\danie_000\Desktop\Proyecto_cine\Proyect\obj\Debug\Proyect.ModInv.resources
+C:\Users\danie_000\Desktop\Proyecto_cine\Proyect\obj\Debug\Proyect.Menu_Consultor.resources
+C:\Users\danie_000\Desktop\Proyecto_cine\Proyect\obj\Debug\Proyect.Consulta_Base.resources

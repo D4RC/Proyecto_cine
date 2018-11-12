@@ -146,7 +146,8 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Silver;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDark;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
@@ -210,7 +211,8 @@
             // 
             this.btn_Borrar.BackColor = System.Drawing.Color.Silver;
             this.btn_Borrar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_Borrar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_Borrar.FlatAppearance.BorderSize = 0;
+            this.btn_Borrar.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDark;
             this.btn_Borrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Borrar.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Borrar.ForeColor = System.Drawing.Color.Black;
@@ -226,7 +228,8 @@
             // 
             this.btn_RegOtro.BackColor = System.Drawing.Color.Silver;
             this.btn_RegOtro.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_RegOtro.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_RegOtro.FlatAppearance.BorderSize = 0;
+            this.btn_RegOtro.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDark;
             this.btn_RegOtro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RegOtro.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_RegOtro.ForeColor = System.Drawing.Color.Black;
@@ -243,7 +246,8 @@
             // 
             this.btn_BMenu.BackColor = System.Drawing.Color.Silver;
             this.btn_BMenu.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_BMenu.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.HotTrack;
+            this.btn_BMenu.FlatAppearance.BorderSize = 0;
+            this.btn_BMenu.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ControlDark;
             this.btn_BMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_BMenu.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_BMenu.ForeColor = System.Drawing.Color.Black;
@@ -259,7 +263,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(471, 507);
+            this.ClientSize = new System.Drawing.Size(466, 507);
             this.Controls.Add(this.btn_BMenu);
             this.Controls.Add(this.btn_RegOtro);
             this.Controls.Add(this.btn_Borrar);

@@ -20,7 +20,10 @@ namespace Proyect
             // Application.Run(new Form1());
             // Application.Run(new Form2());
             // Application.Run(new Form3());
-            Application.Run(new BajaInv());
+            // Application.Run(new BajaInv());
+             Application.Run(new ModInv());
+            // Application.Run(new Menu_Consultor());
+            // Application.Run(new Consulta_Base());
         }
     }
 }
